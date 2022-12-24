@@ -1,0 +1,57 @@
+#main {
+    font-family: "Segoe UI";
+    background: rgb(125, 125, 125);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+#image {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+}
+
+#img-caption {
+    margin-top: 10px;
+}
+#tribute-info ul{
+    padding: 10px 60px 20px 60px;
+    background-color: rgba(125,125,125,0.5);
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#tribute-info ul:hover{
+    transform:scale3d(1.01,1.01,1)
+}
+
+li {
+    text-align: left;
+}
+
+.bold,
+.head {
+    font-weight: bold;
+}
+
+footer p a {
+    color: blue;
+}
+
+footer p a:hover {
+    font-style: italic;
+}
+
+footer p a:visited {
+    color: black;
+}
+.foot {
+    font-style: italic;
+}

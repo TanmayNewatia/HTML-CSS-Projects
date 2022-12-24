@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 1.5em;
+}
+
+.head {
+    display: block;
+    width: 100%;
+}
+
+#header {
+    background: rgba(0, 0, 0);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+}
+
+#header-img {
+    background: #fff;
+    max-width: 75px;
+    margin-left: 25px;
+}
+
+nav {
+    width: 40%;
+}
+
+.nav-wrapper {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-wrapper a {
+    padding: 18px 0;
+    width: 33%;
+    text-decoration: none;
+    color: white;
+    background: black;
+    border-radius: 3px;
+}
+
+.nav-wrapper a:hover {
+    color: black;
+    background: white;
+}
+
+#About-Us {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 60px 30px 0 30px;
+    border-radius: 5px;
+}
+
+#About-Us:hover {
+    transform: scale3d(1.01,1.02,1);
+}
+
+.heading-about-us {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#video-sec h1,#sign-up h1 {
+    text-align: center;
+    padding: 60px 0 20px 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+
+#video h1 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+#form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#form fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    font-size: 1.2rem;
+    padding: 0 0 20px 0;
+}
+
+input {
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+input[type="submit"] {
+    width: 20%;
+    background: yellow;
+    cursor: pointer;
+}
+
+.page-wrapper {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+
+@media (max-width: 720px) {
+    .nav-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
